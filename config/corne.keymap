@@ -95,7 +95,7 @@
         };
 
         Ukrainian-yi {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <41 11>;
             layers = <0>;
         };
