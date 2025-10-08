@@ -87,6 +87,18 @@
             timeout-ms = <1000>;
             layers = <4>;
         };
+
+        Ukrainian-h {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <10 41>;
+            layers = <0>;
+        };
+
+        Ukrainian-yi {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <41 11>;
+            layers = <0>;
+        };
     };
 
     //
