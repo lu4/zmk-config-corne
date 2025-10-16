@@ -113,6 +113,11 @@
             bindings = <&kp LG(LC(ENTER))>;
             key-positions = <40 41>;
         };
+
+        Search {
+            bindings = <&kp LG(BACKSLASH)>;
+            key-positions = <36 23>;
+        };
     };
 
     //
