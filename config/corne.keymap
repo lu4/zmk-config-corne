@@ -89,14 +89,29 @@
 
         Ukrainian-h {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <10 41>;
+            key-positions = <10 22>;
             layers = <0>;
         };
 
         Ukrainian-yi {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <41 11>;
+            key-positions = <11 23>;
             layers = <0>;
+        };
+
+        Transcribe {
+            bindings = <&kp LG(LA(ENTER))>;
+            key-positions = <37 36>;
+        };
+
+        Instruct {
+            bindings = <&kp LG(LA(LS(ENTER)))>;
+            key-positions = <37 36 38>;
+        };
+
+        Announce {
+            bindings = <&kp LG(LA(ENTER))>;
+            key-positions = <40 41>;
         };
     };
 
