@@ -110,7 +110,7 @@
         };
 
         Announce {
-            bindings = <&kp LG(LA(ENTER))>;
+            bindings = <&kp LG(LC(ENTER))>;
             key-positions = <40 41>;
         };
     };
