@@ -136,7 +136,7 @@
         };
 
         Ukrainian-period {
-            bindings = <&kp AMPERSAND>;
+            bindings = <&kp AMPS>;
             key-positions = <21 33>;
             layers = <0>;
         };
