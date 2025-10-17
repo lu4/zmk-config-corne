@@ -121,12 +121,12 @@
 
         Next-window {
             bindings = <&kp LG(GRAVE)>;
-            key-positions = <36 24>;
+            key-positions = <36 29>;
         };
 
         Previous-window {
             bindings = <&kp LG(LS(GRAVE))>;
-            key-positions = <36 24 12>;
+            key-positions = <36 24>;
         };
 
         Ukrainian-comma {
