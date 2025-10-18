@@ -132,13 +132,11 @@
         Ukrainian-comma {
             bindings = <&kp LCTRL>;
             key-positions = <32 20>;
-            layers = <0>;
         };
 
         Ukrainian-period {
             bindings = <&kp AMPS>;
             key-positions = <21 33>;
-            layers = <0>;
         };
     };
 
