@@ -104,27 +104,27 @@
         Transcribe {
             bindings = <&kp LG(LA(ENTER))>;
             key-positions = <11 10 9 8>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
             layers = <0>;
         };
 
         Instruct {
             bindings = <&kp LG(LA(LS(ENTER)))>;
             key-positions = <41 8 9 10 11>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
         };
 
         Announce {
             bindings = <&kp LG(LC(ENTER))>;
             key-positions = <11 10 9 8>;
             layers = <2>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
         };
 
         Search {
             bindings = <&kp LG(BACKSLASH)>;
             key-positions = <36 23>;
-            timeout-ms = <50>;
+            timeout-ms = <75>;
         };
 
         Next-window {
