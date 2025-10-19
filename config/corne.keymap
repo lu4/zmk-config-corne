@@ -140,7 +140,7 @@
         };
 
         Ukrainian-comma {
-            bindings = <&kp LCTRL>;
+            bindings = <&kp CARET>;
             key-positions = <32 20>;
             timeout-ms = <10>;
             layers = <0>;
