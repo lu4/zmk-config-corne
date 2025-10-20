@@ -152,6 +152,13 @@
             timeout-ms = <10>;
             layers = <0>;
         };
+
+        alt-f-combo {
+            bindings = <&kp LA(F)>;
+            key-positions = <37 16>;
+            timeout-ms = <10>;
+            layers = <0>;
+        };
     };
 
     //
