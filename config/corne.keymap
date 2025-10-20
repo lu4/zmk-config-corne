@@ -129,13 +129,13 @@
 
         Next-window {
             bindings = <&kp LG(GRAVE)>;
-            key-positions = <41 35>;
+            key-positions = <24 36>;
             timeout-ms = <10>;
         };
 
         Previous-window {
             bindings = <&kp LG(LS(GRAVE))>;
-            key-positions = <36 24>;
+            key-positions = <36 24 35>;
             timeout-ms = <10>;
         };
 
