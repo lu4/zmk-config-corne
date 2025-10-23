@@ -133,12 +133,6 @@
             timeout-ms = <25>;
         };
 
-        Previous-window {
-            bindings = <&kp LG(LS(GRAVE))>;
-            key-positions = <36 24 35>;
-            timeout-ms = <25>;
-        };
-
         Ukrainian-comma {
             bindings = <&kp CARET>;
             key-positions = <32 20>;
