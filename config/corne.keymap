@@ -91,58 +91,58 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <10 22>;
             layers = <0>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
         };
 
         Ukrainian-yi {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <11 23>;
             layers = <0>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
         };
 
         Transcribe {
             bindings = <&kp LG(LA(ENTER))>;
             key-positions = <11 10 9 8>;
-            timeout-ms = <25>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
         Instruct {
             bindings = <&kp LG(LA(LS(ENTER)))>;
             key-positions = <41 8 9 10 11>;
-            timeout-ms = <25>;
+            timeout-ms = <30>;
         };
 
         Announce {
             bindings = <&kp LG(LC(ENTER))>;
             key-positions = <11 10 9 8>;
             layers = <2>;
-            timeout-ms = <25>;
+            timeout-ms = <30>;
         };
 
         Search {
             bindings = <&kp LG(BACKSLASH)>;
             key-positions = <36 23>;
-            timeout-ms = <75>;
+            timeout-ms = <100>;
         };
 
         Next-window {
             bindings = <&kp LG(GRAVE)>;
             key-positions = <24 36>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
         };
 
         Previous-window {
             bindings = <&kp LG(LS(GRAVE))>;
             key-positions = <36 24 35>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
         };
 
         Ukrainian-comma {
             bindings = <&kp CARET>;
             key-positions = <32 20>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
             layers = <0>;
         };
 
@@ -156,7 +156,7 @@
         alt-f-combo {
             bindings = <&kp LA(F)>;
             key-positions = <37 16>;
-            timeout-ms = <10>;
+            timeout-ms = <25>;
             layers = <0>;
         };
     };
