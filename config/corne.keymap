@@ -170,10 +170,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&hm ESC TAB      &hm EXCLAMATION Q  &hm AT W  &hm HASH E  &hm DLLR R  &hm PRCNT T    &hm CARET Y  &hm AMPS U  &hm ASTERISK I  &hm LEFT_PARENTHESIS O  &hm RIGHT_PARENTHESIS P  &kp BACKSPACE
-&kp LSHFT        &kp A              &kp S     &kp D       &kp F       &kp G          &kp H        &kp J       &kp K           &kp L                   &kp SEMI                 &kp SQT
-&hm LCTRL GRAVE  &kp Z              &kp X     &kp C       &kp V       &kp B          &kp N        &kp M       &kp COMMA       &kp DOT                 &kp FSLH                 &kp RSHFT
-                                              &kp LGUI    &mo 1       &kp SPACE      &kp RET      &mo 2       &kp LEFT_ALT
+&hm ESC TAB  &hm EXCLAMATION Q  &hm AT W  &hm HASH E  &hm DLLR R  &hm PRCNT T    &hm CARET Y  &hm AMPS U  &hm ASTERISK I  &hm LEFT_PARENTHESIS O  &hm RIGHT_PARENTHESIS P  &kp BACKSPACE
+&kp LSHFT    &kp A              &kp S     &kp D       &kp F       &kp G          &kp H        &kp J       &kp K           &kp L                   &kp SEMI                 &kp SQT
+&kp GRAVE    &kp Z              &kp X     &kp C       &kp V       &kp B          &kp N        &kp M       &kp COMMA       &kp DOT                 &kp FSLH                 &kp RSHFT
+                                          &kp LGUI    &mo 1       &kp SPACE      &kp RET      &mo 2       &kp LEFT_ALT
             >;
         };
 
@@ -190,7 +190,7 @@
 &kp ESC     &hm F1 N1       &hm F2 N2       &hm F3 N3       &hm F4 N4        &hm F5 N5    &hm F6 N6       &hm F7 N7       &hm F8 N8        &hm F9 N9   &hm F10 N0  &kp DELETE
 &caps_word  &trans          &trans          &kp UP_ARROW    &kp LA(F)        &trans       &trans          &kp UP_ARROW    &trans           &kp INSERT  &kp HOME    &kp PG_UP
 &trans      &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RCTRL    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE  &kp END     &kp PAGE_DOWN
-                                            &kp LEFT_ALT    &trans           &kp LGUI     &kp LEFT_SHIFT  &trans          &trans
+                                            &kp LGUI        &trans           &kp LALT     &kp ENTER       &trans          &trans
             >;
         };
 
