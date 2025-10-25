@@ -170,10 +170,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&hm ESC TAB  &hm EXCLAMATION Q  &hm AT W  &hm HASH E  &hm DLLR R  &hm PRCNT T    &hm CARET Y  &hm AMPS U  &hm ASTERISK I  &hm LEFT_PARENTHESIS O  &hm RIGHT_PARENTHESIS P  &kp BACKSPACE
-&kp LSHFT    &kp A              &kp S     &kp D       &kp F       &kp G          &kp H        &kp J       &kp K           &kp L                   &kp SEMI                 &kp SQT
-&kp GRAVE    &kp Z              &kp X     &kp C       &kp V       &kp B          &kp N        &kp M       &kp COMMA       &kp DOT                 &kp FSLH                 &kp RSHFT
-                                          &kp LGUI    &mo 1       &kp SPACE      &kp RET      &mo 2       &kp LEFT_ALT
+&hm ESC TAB  &hm EXCLAMATION Q  &hm AT W  &hm HASH E    &hm DLLR R  &hm PRCNT T    &hm CARET Y  &hm AMPS U  &hm ASTERISK I  &hm LEFT_PARENTHESIS O  &hm RIGHT_PARENTHESIS P  &kp BACKSPACE
+&kp LSHFT    &kp A              &kp S     &kp D         &kp F       &kp G          &kp H        &kp J       &kp K           &kp L                   &kp SEMI                 &kp SQT
+&kp GRAVE    &kp Z              &kp X     &kp C         &kp V       &kp B          &kp N        &kp M       &kp COMMA       &kp DOT                 &kp FSLH                 &kp RSHFT
+                                          &kp LEFT_GUI  &mo 1       &kp SPACE      &kp RET      &mo 2       &kp LEFT_ALT
             >;
         };
 
