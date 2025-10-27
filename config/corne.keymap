@@ -187,7 +187,7 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp ESC     &hm F1 N1       &hm F2 N2       &hm F3 N3       &hm F4 N4        &hm F5 N5    &hm F6 N6       &hm F7 N7       &hm F8 N8        &hm F9 N9   &hm F10 N0  &kp BACKSPACE
+&kp ESC     &hm N1 F1       &hm N2 F2       &hm N3 F3       &hm N4 F4        &hm N5 F5    &hm N6 F6       &hm N7 F7       &hm N8 F8        &hm N9 F9   &hm N0 F10  &kp BACKSPACE
 &caps_word  &trans          &trans          &kp UP_ARROW    &kp LA(F)        &trans       &trans          &kp UP_ARROW    &trans           &kp INSERT  &kp HOME    &kp PG_UP
 &trans      &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RCTRL    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE  &kp END     &kp PAGE_DOWN
                                             &kp LGUI        &trans           &kp LALT     &kp ENTER       &trans          &trans
