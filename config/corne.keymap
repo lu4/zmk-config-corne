@@ -170,7 +170,7 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&hm ESC TAB      &hm N1 Q  &hm N2 W  &hm N3 E      &hm N4 R  &hm N5 T     &hm N6 Y  &hm N7 U  &hm N8 I      &hm N8 O  &hm N0 P  &kp BACKSPACE
+&hm ESC TAB      &hm N1 Q  &hm N2 W  &hm N3 E      &hm N4 R  &hm N5 T     &hm N6 Y  &hm N7 U  &hm N8 I      &hm N9 O  &hm N0 P  &kp BACKSPACE
 &kp LSHFT        &kp A     &kp S     &kp D         &kp F     &kp G        &kp H     &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
 &hm LCTRL GRAVE  &kp Z     &kp X     &kp C         &kp V     &kp B        &kp N     &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
                                      &kp LEFT_GUI  &mo 1     &kp SPACE    &kp RET   &mo 2     &kp LEFT_ALT
