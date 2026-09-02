@@ -215,8 +215,8 @@
         Adjustments {
             display-name = "System";
             bindings = <
-&none   &none   &none   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none     &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none         &none         &none
-&tog 6  &tog 3  &tog 2  &tog 1                &tog 0                &tog 5    &bt BT_SEL 1  &bt BT_SEL 0       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &none
+&tog 6  &none   &none   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none     &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none         &none         &none
+&none   &tog 3  &tog 2  &tog 1                &tog 0                &tog 5    &bt BT_SEL 1  &bt BT_SEL 0       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &none
 &none   &none   &none   &none                 &none                 &none     &none         &none              &none            &none         &none         &none
                         &trans                &trans                &trans    &trans        &trans             &trans
             >;
@@ -234,8 +234,8 @@
 
         Dangerous {
             bindings = <
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL
-&tog 6          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
+&tog 6          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL
+&none           &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
 &studio_unlock  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &bootloader
                                 &trans  &trans  &trans    &trans  &trans  &trans
             >;
