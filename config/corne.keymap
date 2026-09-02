@@ -74,17 +74,17 @@
         compatible = "zmk,combos";
 
         DebuggingEntry {
-            bindings = <&tog 1>;
+            bindings = <&tog 5>;
             key-positions = <36 41>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
         DebuggingExit {
-            bindings = <&tog 1>;
+            bindings = <&tog 5>;
             key-positions = <36 41>;
             timeout-ms = <50>;
-            layers = <1>;
+            layers = <5>;
         };
 
         Ukrainian-h {
@@ -117,7 +117,7 @@
         Announce {
             bindings = <&kp LG(LC(ENTER))>;
             key-positions = <11 10 9 8>;
-            layers = <3>;
+            layers = <2>;
             timeout-ms = <30>;
         };
 
@@ -173,17 +173,7 @@
 &hm ESC TAB      &hm N1 Q  &hm N2 W  &hm N3 E      &hm N4 R  &hm N5 T     &hm N6 Y  &hm N7 U  &hm N8 I      &hm N9 O  &hm N0 P  &kp BACKSPACE
 &kp LSHFT        &kp A     &kp S     &kp D         &kp F     &kp G        &kp H     &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
 &hm LCTRL GRAVE  &kp Z     &kp X     &kp C         &kp V     &kp B        &kp N     &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-                                     &kp LEFT_GUI  &mo 2     &kp SPACE    &kp RET   &mo 3     &kp LEFT_ALT
-            >;
-        };
-
-        Debugging {
-            display-name = "Debugging";
-            bindings = <
-&none  &kp F1  &kp F2  &kp F4  &kp F4  &kp F5    &kp F5  &kp F8  &kp F10  &kp F11  &kp LS(F11)  &kp BACKSPACE
-&none  &none   &none   &none   &none   &none     &none   &none   &none    &none    &none        &none
-&none  &none   &none   &none   &none   &none     &none   &none   &none    &none    &none        &none
-                       &trans  &trans  &trans    &trans  &trans  &trans
+                                     &kp LEFT_GUI  &mo 1     &kp SPACE    &kp RET   &mo 2     &kp LEFT_ALT
             >;
         };
 
@@ -234,9 +224,19 @@
             display-name = "System";
             bindings = <
 &none   &none   &none   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none     &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none         &none         &none
-&tog 6  &tog 4  &tog 3  &tog 2                &tog 0                &tog 1    &bt BT_SEL 1  &bt BT_SEL 0       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &none
+&tog 6  &tog 3  &tog 2  &tog 1                &tog 0                &tog 5    &bt BT_SEL 1  &bt BT_SEL 0       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &none
 &none   &none   &none   &none                 &none                 &none     &none         &none              &none            &none         &none         &none
                         &trans                &trans                &trans    &trans        &trans             &trans
+            >;
+        };
+
+        Debugging {
+            display-name = "Debugging";
+            bindings = <
+&none  &kp F1  &kp F2  &kp F4  &kp F4  &kp F5    &kp F5  &kp F8  &kp F10  &kp F11  &kp LS(F11)  &kp BACKSPACE
+&none  &none   &none   &none   &none   &none     &none   &none   &none    &none    &none        &none
+&none  &none   &none   &none   &none   &none     &none   &none   &none    &none    &none        &none
+                       &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
@@ -254,8 +254,8 @@
         compatible = "zmk,conditional-layers";
 
         l3 {
-            if-layers = <2 3>;
-            then-layer = <5>;
+            if-layers = <1 2>;
+            then-layer = <4>;
         };
     };
 };
