@@ -73,18 +73,10 @@
     combos {
         compatible = "zmk,combos";
 
-        DebuggingEntry {
+        DebuggingToggle {
             bindings = <&tog 5>;
             key-positions = <36 41>;
             timeout-ms = <50>;
-            layers = <0>;
-        };
-
-        DebuggingExit {
-            bindings = <&tog 5>;
-            key-positions = <36 41>;
-            timeout-ms = <50>;
-            layers = <5>;
         };
 
         Ukrainian-h {
@@ -243,7 +235,7 @@
         Dangerous {
             bindings = <
 &trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
+&tog 6          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
 &studio_unlock  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &bootloader
                                 &trans  &trans  &trans    &trans  &trans  &trans
             >;
